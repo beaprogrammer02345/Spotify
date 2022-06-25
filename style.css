@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@500&family=Ubuntu:ital,wght@1,300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+nav
+{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: sticky;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.brand img{
+    width:56px;
+    padding: 0px 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.container
+{
+    min-height: 72vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width:70%;
+    margin: 23px auto;
+    border-radius: 13px;
+    padding: 34px;
+    background: url('/bg.jpg') no-repeat center center/cover;
+    
+}
+.songItem
+{
+    height: 50xp;
+    display: flex;
+    background-color: white;
+    color:black;
+    margin: 12px 6px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+.songItem img
+{
+   
+   width: 60px;
+   height: 45px;
+   margin: 4px 4px;
+   border-radius: 30px;
+   /* mask-repeat: no-repeat; */
+
+}
+.timestamp
+{
+    margin: 0px 12px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songItemContainer
+{
+    margin-top: 74px;
+}
+#myProgressBar
+{
+    width: 80vw;
+    cursor: pointer;
+}
+.bottom
+{
+    position: sticky;
+    background-color: black;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.songinfo
+{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+.icons
+{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:1100px)
+{
+    body
+    {
+        background-color: blue;
+    }
+}
+

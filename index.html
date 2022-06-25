@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favourite music is here!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="/logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+
+        </ul>
+    </nav>
+    <div class="container ">
+        <div class="songlist">
+            <h1>Best of NCS-No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1.">
+                    <span class="songName">Mahiya Mai Tujhe Kar Pyar.</span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i id="0" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1.">
+                    <span class="songName">Whistle Baja 2</span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i  id="1" class="fa songItemPlay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1.">
+                    <span class="songName">First Kiss Yo Yo Honey Singh</span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i id="2" class="fa songItemPlay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1.">
+                    <span class="songName">Dheemi Dheemi Mitraz</span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i id="3" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1.">
+                    <span class="songName">Woh Mere Bin Atif Aslam </span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i id="4" class="fa songItemPlay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1.">
+                    <span class="songName">Mashup Jayantabhai Ki Luv Story</span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i id="5" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="1.">
+                    <span class="songName">Blue Eyes Yo Yo Honey Singh</span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i id="6" class="fa songItemPlay fa-circle-play "></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/8.jpg" alt="1.">
+                    <span class="songName">One Bottle Down</span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i id="7" class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/9.jpg" alt="1.">
+                    <span class="songName">Loca Yo Yo Honey Singh </span>
+                    <span class="songListPlay"><span class="timestamp">05:34<i  id="8"class="fa songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar"  min="0" value="0"  max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-fast" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="MasterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-fast" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="/playing.gif" width="42px" alt="Gif" id="gif" ><span id="mastersongName">Mahiya Mai Tujhe Kar Pyar.</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/43a0ace3f9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
